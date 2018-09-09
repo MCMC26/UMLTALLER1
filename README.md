@@ -71,15 +71,20 @@ PApplet (API de processing)
 
 
 ### METEORO
-Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
-PApplet (API de processing)
+Esta clase se encargara de crear la composicion mas compleja de un meteoro apartir de figuras simples que tendra como interaccion volar en diagonal para chocar contra la luna </p>
 #### METODOS
-* pintar:void
+* pintar:void </p>
+En este metodo el objetivo es pintar el meteoro construido en la misma clase y asi poder interactuar con él con las coordenadas del mouse</p>
+* mover:void </p>
+En este metodo el objetivo es poder interactuar con el meteoro, en donde se modificaran las posiciones en el eje "x" y "y" para poder desplazar lo de manera diagonal y poder chocar la luna </p>
+* chocar():boolean </p>
+En este metodo se validara si el meteoro choco con la luna y asi desaareceran los puntos y se convertira en sol </p>
 
 ##### ATRIBUTOS
-- s:Sol
-- l:luna
-- isL:boolean 
+- posX:int </p>
+- posY:int </p>
+Ambas variables son las coordenadas tanto para dibujar como para desplazar el meteoro de manera diagonal </p>
+
 
 
 
@@ -96,8 +101,8 @@ En este metodo se validara si la estrella ha sido puesta en el punto de ancla pa
 -posX:int </p>
 -posY:int </p>
 Ambas variables son las coordenadas tanto para dibujar como para desplazar el las estrellas , que despues seran planetas</p>
--tam:int
--color:int
+-tam:int </p>
+-color:int </p>
 Ambas variables son las propiedades para modificar el tamaño y el color en las estrellas y asi volverlas planetas </p>
 
 
