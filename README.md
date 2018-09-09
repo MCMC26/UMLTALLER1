@@ -84,15 +84,21 @@ PApplet (API de processing)
 
 
 ### CONSTELACION
-Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
-PApplet (API de processing)
-#### METODOS
-* pintar:void
-
+Esta clase se encargara de crear la composicion mas compleja de una constelacion  con las debidas estrellas, en donde tendran que ser puestas en determinadas zonas para poder armarla,despues estas mismas se engrandeceran y se convertiran en planetas, a los cuales se les aplicara gravedad </p>
+#### METODO
+* pintar:void </p>
+En este metodo el objetivo es pintar la constelacion construido en la misma clase y asi poder interactuar con ella y sus estrellas, que despues de cierta condicion , ser convertiran en planetas </p>
+* mover:void </p>
+En este metodo el objetivo es poder interactuar con las estrellas tanto para darles la nueva posicion, como para aplicarles gravedad </p>
+* agregar ():boolean </p>
+En este metodo se validara si la estrella ha sido puesta en el punto de ancla para formar la constelacion y asi podran volverse planetas. </p>
 ##### ATRIBUTOS
-- s:Sol
-- l:luna
-- isL:boolean 
+-posX:int </p>
+-posY:int </p>
+Ambas variables son las coordenadas tanto para dibujar como para desplazar el las estrellas , que despues seran planetas</p>
+-tam:int
+-color:int
+Ambas variables son las propiedades para modificar el tamaño y el color en las estrellas y asi volverlas planetas </p>
 
 
 
