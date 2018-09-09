@@ -21,3 +21,17 @@ este meodo inicializa todo
 ##### ATRIBUTOS
 - log:Logica
 
+
+## LOGICA
+Esta clase llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+#### METODOS
+* pintar:void
+
+* teclado:void</p>
+
+* mouse:void</p>
+
+##### ATRIBUTOS
+- app:PApplet
+- palabras:Arraylist<Strings>
