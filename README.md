@@ -26,7 +26,7 @@ este meodo inicializa todo
 Esta clase llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
 PApplet (API de processing)
 #### METODOS
-* pintar:void
+* pintar:void</p>
 
 * teclado:void</p>
 
@@ -109,13 +109,15 @@ PApplet (API de processing)
 
 
 
-### CUHETE
-Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
-PApplet (API de processing)
-#### METODOS
-* pintar:void
-
+### CUHETE </p>
+Esta clase se encargara de crear la composicion mas compleja  apartir de figuras simples  una compuesta que formara el cohete</p>
+#### METODOS </p>
+* pintar:void </p>
+En este metodo el objetivo es pintar el cohete construido en la misma clase y asi poder interactuar con él </p>
+* mover:void </p>
+En este metodo el objetivo es poder interactuar con el cohete, en donde se modificaran las posiciones en el eje y para poder moverlo</p>
 ##### ATRIBUTOS
-- s:Sol
-- l:luna
-- isL:boolean 
+- posX:int </p>
+- posY:int </p>
+Ambas variables son las coordenadas tanto para dibujar como para desplazar el cohete </p>
+
