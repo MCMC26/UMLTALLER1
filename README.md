@@ -35,3 +35,87 @@ PApplet (API de processing)
 ##### ATRIBUTOS
 - app:PApplet
 - palabras:Arraylist<Strings>
+
+
+### CENTRO
+Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+#### METODOS
+* pintar:void
+
+##### ATRIBUTOS
+- s:Sol
+- l:luna
+- isL:boolean 
+#### LUNA
+Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+##### METODOS
+* pintar:void
+
+###### ATRIBUTOS
+- s:Sol
+- l:luna
+- isL:boolean 
+#### SOL
+Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+##### METODOS
+* pintar:void
+
+###### ATRIBUTOS
+- s:Sol
+- l:luna
+- isL:boolean 
+
+
+
+### METEORO
+Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+#### METODOS
+* pintar:void
+
+##### ATRIBUTOS
+- s:Sol
+- l:luna
+- isL:boolean 
+
+
+
+### CONSTELACION
+Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+#### METODOS
+* pintar:void
+
+##### ATRIBUTOS
+- s:Sol
+- l:luna
+- isL:boolean 
+
+
+
+### ELEFANTE
+Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+#### METODOS
+* pintar:void
+
+##### ATRIBUTOS
+- s:Sol
+- l:luna
+- isL:boolean 
+
+
+
+### CUHETE
+Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
+PApplet (API de processing)
+#### METODOS
+* pintar:void
+
+##### ATRIBUTOS
+- s:Sol
+- l:luna
+- isL:boolean 
