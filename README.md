@@ -6,18 +6,18 @@
 Esta clase llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
 PApplet (API de processing)
 #### METODOS
-* settings:void
-
-* setup:void</p>
-
-* draw:void</p>
-
-* mousePressed:void</p>
-
-* mouseReleassed:void</p>
-
-* mouseDragged:void</p>
-
+* settings:void </p>
+Se define el lienzo de interaccion</p>
+* setup:void </p>
+ Se crea la variable de tipo logica para conectar la clase y asi poder llamar los diferentes eventos de esta </p>
+* draw:void </p>
+Se ejecuta toda la parte grafica definida en la logica </p>
+* mousePressed:void </p>
+Se llama los diferentes eventos del mouse definidos en la logica al presionar los clicks </p>
+* mouseReleassed:void </p>
+Se llama los diferentes eventos del mouse definidos en la logica al instante de acabar de presionar los clicks </p>
+* mouseDragged:void </p>
+Se llama los diferentes eventos del mouse definidos en la logica al presionar los clicks y desplazarlos </p>
 ##### ATRIBUTOS
 - log:Logica </p>
 Esta variable se utiliza para llamar las diferentes interacciones de la clase logica y los diferentes objetos que se involucran </p>
