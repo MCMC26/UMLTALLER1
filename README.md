@@ -24,13 +24,18 @@ Esta variable se utiliza para llamar las diferentes interacciones de la clase lo
 
 
 ## LOGICA
+Esta clase se encarga de relacionar todos los objetos e interacciones junto con las diferentes condiciones para que se ejecuten </p>
 
 #### METODOS
 * pintar:void</p>
+aqui se llamaran todo los objetos a pintar de las diferentes clases </p>
 
 * teclado:void</p>
+aqui se contruira las diferentes intecacciones del teclado entre la parte grafica y el txt </p>
 
 * mouse:void</p>
+aqui se contruira las diferentes intecacciones del mouse entre la parte grafica y el txt </p>
+
 
 ##### ATRIBUTOS
 - app:PApplet </p>
