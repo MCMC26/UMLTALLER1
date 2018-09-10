@@ -9,7 +9,7 @@ PApplet (API de processing)
 * settings:void
 
 * setup:void</p>
-este meodo inicializa todo
+
 * draw:void</p>
 
 * mousePressed:void</p>
@@ -19,12 +19,12 @@ este meodo inicializa todo
 * mouseDragged:void</p>
 
 ##### ATRIBUTOS
-- log:Logica
+- log:Logica </p>
+Esta variable se utiliza para llamar las diferentes interacciones de la clase logica y los diferentes objetos que se involucran </p>
 
 
 ## LOGICA
-Esta clase llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
-PApplet (API de processing)
+
 #### METODOS
 * pintar:void</p>
 
@@ -33,9 +33,10 @@ PApplet (API de processing)
 * mouse:void</p>
 
 ##### ATRIBUTOS
-- app:PApplet
-este atributo es para instanciar la libreria de processing a la clase logica, y asi poder usarla en todas las demas clases
-- palabras:Arraylist<Strings>
+- app:PApplet </p>
+Este atributo es para instanciar la libreria de processing a la clase logica, y asi poder usarla en todas las demas clases </p>
+- palabras:Arraylist<Strings> </p>
+Este atributo se utilizara para crear la lista de palabras, letras y las diferentes interacciones que habran dentro de estas
 
 
 ### CENTRO
@@ -47,9 +48,9 @@ Este metodo se encargara de pintar las dos posibles opciones , luna o sol con su
 ##### ATRIBUTOS
 - s:Sol </p>
 - l:luna </p>
-estos dos atributos estan para conectar las interacciones de las dos clases hijas , luna y sol.
-- isL:boolean 
-este atributo sera para indicar en que caso esta la hija luna o la hija sol, y asi cuando se den unas interacciones de una clase no se daran las de la otra.
+estos dos atributos estan para conectar las interacciones de las dos clases hijas , luna y sol </p>
+- isL:boolean </p>
+este atributo sera para indicar en que caso esta la hija luna o la hija sol, y asi cuando se den unas interacciones de una clase no se daran las de la otra </p>
 
 #### LUNA
 Esta clase hija esta constituida por una ellipse  grande y mas pequeñas que representan la luna, la cual se modificara o no de acuerdo a si tienen interaccion con otra clase llamada meteoro </p>
