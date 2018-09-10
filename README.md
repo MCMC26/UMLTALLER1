@@ -34,29 +34,33 @@ PApplet (API de processing)
 
 ##### ATRIBUTOS
 - app:PApplet
+este atributo es para instanciar la libreria de processing a la clase logica, y asi poder usarla en todas las demas clases
 - palabras:Arraylist<Strings>
 
 
 ### CENTRO
-Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
-PApplet (API de processing)
+Esta clase padre es la estructura de las dos posibles composiciones, ya se la luna o el sol con sus diferentes interacciones </p>
 #### METODOS
-* pintar:void
+* pintar:void </sp>
+Este metodo se encargara de pintar las dos posibles opciones , luna o sol con sus diferentes interacciones </p>
 
 ##### ATRIBUTOS
-- s:Sol
-- l:luna
+- s:Sol </p>
+- l:luna </p>
+estos dos atributos estan para conectar las interacciones de las dos clases hijas , luna y sol.
 - isL:boolean 
+este atributo sera para indicar en que caso esta la hija luna o la hija sol, y asi cuando se den unas interacciones de una clase no se daran las de la otra.
+
 #### LUNA
-Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
-PApplet (API de processing)
+Esta clase hija esta constituida por una ellipse  grande y mas pequeñas que representan la luna, la cual se modificara o no de acuerdo a si tienen interaccion con otra clase llamada meteoro </p>
 ##### METODOS
 * pintar:void
-
+Este metodo sirve para pintarla  la ellipse grande y las pequeñas que desapareceran al interactuar con el meteoro</p>
 ###### ATRIBUTOS
-- s:Sol
-- l:luna
-- isL:boolean 
+-posX:int </p>
+-posY:int </p>
+Ambas variables son las coordenadas son para dibujar la luna que esta compuesta por una ellipse  grande y otras pequeñas dentro del area de la ellipse </p>
+
 #### SOL
 Esta clase hija esta constituida por una ellipse que representa el sol  y unos aros alrededor de este con los cuales se podra interactuar
 ##### METODOS
