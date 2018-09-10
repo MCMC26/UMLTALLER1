@@ -58,15 +58,17 @@ PApplet (API de processing)
 - l:luna
 - isL:boolean 
 #### SOL
-Esta clase padre abstracta llama la clase ejecutable logica, aqui se define el la resolucion y los metodos prinplales de 
-PApplet (API de processing)
+Esta clase hija esta constituida por una ellipse que representa el sol  y unos aros alrededor de este con los cuales se podra interactuar
 ##### METODOS
-* pintar:void
-
+* pintar:void </p>
+Este metodo sirve para pintarla ellipse y los aros a su alrededor segun la interaccion dada </p>
 ###### ATRIBUTOS
-- s:Sol
-- l:luna
-- isL:boolean 
+-posX:int </p>
+-posY:int </p>
+Ambas variables son las coordenadas son para dibujar el sol y sus respectivos aros</p>
+-tam:int </p>
+-color:int </p>
+Ambas variables son las propiedades para darle el tamaño y el color a los diferentes aros que se pintaran de acuerdo a cada letra </p>
 
 
 
